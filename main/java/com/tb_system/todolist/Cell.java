@@ -279,7 +279,8 @@ public class Cell implements Serializable{
     public void setVisible(ListType listType) {
         this.visible = listType;
     }
-
+	
+	
 
     /**
      * メモ
