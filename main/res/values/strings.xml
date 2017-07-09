@@ -1,0 +1,212 @@
+<resources>
+    <!--　プリファレンスキー　-->
+    <string name="p_key_first_time_action">FirstAction</string>       <!--　初回起動時のみ実行する用　-->
+    <string name="p_key_last_start_day">LastStartDay</string>       <!--　起動時にその時間を記録し次回起動時に比較する　-->
+    <string name="p_key_list_all_visible">ListAllVisible</string>       <!--　目のアイコンクリック時　-->
+    <string name="p_key_comment_set_default">SetDefaultComments</string>
+    <string name="p_key_comment_org">OrgComment</string>
+    <string name="pref_congratulations">Congratulations</string>
+    <string name="pref_list_bar_visible">ListBarVisible</string>
+    <string name="pref_past_task_visible">PastTaskVisible</string>
+    <string name="pref_future_task_visible">FutureTaskVisible</string>
+    <string name="pref_select_task_type">TaskType</string>
+    <string name="pref_new_freq">NewFreq</string>
+    <string name="pref_new_goal">NewGoal</string>
+
+    <!--　デフォルト値　-->
+    <string name="def_comment_org">継続は力なり！,１週間は続けよう！,息抜きも考えよう…</string>
+
+    <!--　表示メッセージ　-->
+    <!--　ダイアログメッセージは２２文字で折り返される　-->
+    <string name="mess_first_dialog">       <!--　初回起動時のメッセ　-->
+        ダウンロードありがとうございます,
+        ,
+        こんにちは！\n
+        この度は「2DoTask」をダウンロードしていただきありがとうございます！
+        ,
+        このアプリは２種類の予定を登録できるToDoアプリです。\n
+        旅行や祭りなどのイベントを「単発予定」試験勉強や筋トレなどの繰り返すものを「反復予定」として登録できます。
+        ,
+        どちらも一日経つ毎に残り日数が減っていきます。\n
+        単発予定では、あと何日でイベントの日になるかを確認でき、反復予定では、あと何日で達成失敗になるかを確認できます。\n
+        ,
+        まずは試しに左上の＋をタップして来年の元旦を単発予定で登録することをおすすめします。\n
+        今年があと残り何日か分かるようになるからです。
+        ,
+        このアプリが、みなさんの生活の手助けになれば幸いです。
+    </string>
+    <string name="mess_help_0">       <!--　ヘルプの一番目　,でページ区切り　\nは改行　-->
+        このアプリについて
+        ,
+        このアプリは２種類の予定を登録できるToDoアプリです。\n
+        旅行や祭りなどのイベントを「単発予定」試験勉強や筋トレなどの繰り返すものを「反復予定」として登録できます。
+        ,
+        どちらも一日経つ毎に残り日数が減っていきます。\n
+        単発予定では、あと何日でイベントの日になるかを確認でき、反復予定では、あと何日で達成失敗になるかを確認できます。\n
+        ,
+        まずは試しに単発予定で来年の元旦を登録することをおすすめします。\n
+        今年があと残り何日か分かるようになるからです。
+        ,
+        このアプリが、みなさんの生活の手助けになれば幸いです。
+    </string>
+
+    <string name="mess_help_1">
+        反復予定について
+        ,
+        反復予定は単発予定とは違い、「達成」や「失敗」の概念があります。\n
+        例えば「３日に１回の筋トレ」の場合、３日間何もしなかったら「失敗」３日以内に実行すれば「達成」になります。
+        ,
+        実際にリスト上では日ごとに「３日」「２日」「１日」と期限が減っていきます。\n
+        これが０日になる前に達成すれば、「連続達成回数」のカウントを増やすことが出来ますが、
+        ０日になってしまうと失敗リストに送られてしまい、積み上げてきたカウントは０回にリセットされます。
+        ,
+        達成するためには、反復予定を長押ししてリストを暗転させておく必要があります。
+        この状態で日をまたぐことにより達成確定となります。\n
+        期限は加算式で、残った期限に追加されていくので、実行頻度の設定は長くしすぎないようにするのがポイントです。
+        ,
+        自分で設定した目標に近づけるように頑張りましょう。
+    </string>
+
+    <string name="mess_help_2">
+        予定の作成方法
+        ,
+        予定を作成するときは画面左上の＋マークをタップします。\n
+        予定の作成画面がでてくるので、最初に単発予定が反復予定かを選択します。（文字タップで切り替え可能）
+        ,
+        単発予定の場合は「件名・予定日・メモ」を登録できます。\n
+        場所、時間などの詳細はメモに登録すると良いでしょう。
+        ,
+        反復予定の場合は、「件名・開始日・実行頻度・目標回数・メモ」を登録できます。\n
+        実行頻度は何日置きに予定を実行するかの選択になり、最大で３１日に１回（約月１回）を選べます。
+        目標回数はそれを何回連続して達成したいかで決めます。\n
+        １週間毎日ジョギングをしたいならば、実行頻度を毎日にして目標回数を７にすると良いでしょう。
+        ,
+        なお、反復予定は一度開始されると日数のカウントダウンを止めることは出来ません。
+        準備が整ってない場合や気乗りしない場合は「開始日」を数日後にセットしましょう。\n
+        新規作成時の初期設定は＋アイコン長押しで変更する事ができます。
+    </string>
+
+    <string name="mess_help_3">
+        リストの種類と操作
+        ,
+        リストは５種類あります。\n
+        「単発リスト」「反復リスト」「達成リスト」「失敗リスト」「待機リスト」です。\n
+        達成リストのみトップバーの表示が省略されています。
+        ,
+        「単発リスト」は単発予定の表示にだけ使われます。\n
+        それ以外は全て反復予定の表示に使われます。
+        「反復リスト」は達成前、
+        「達成リスト」は達成済み、
+        「待機リスト」は開始前、
+        「失敗リスト」は達成失敗のものが表示されます。
+        ,
+        全てのリストはタップする事で詳細を見ることができ、ここから予定の削除や変更もできます。\n
+        また、単発リストと待機リスト以外の３つのリストは長押しすることで別の動きをします。\n
+        ,
+        反復リストと達成リストの往来は長押しすることで行なえます。\n
+        失敗リストを長押しすればリトライという形で反復リストに復帰することができます。
+    </string>
+
+    <string name="mess_help_4">
+        目のアイコンについて
+        ,
+        タップすることで「斜線なし」と「斜線有り」の状態を切り替える事ができます。\n
+        「斜線なし」の状態の場合は全ての予定が表示されます。\n
+        「斜線入り」にすると、一部の予定を非表示にする事が出来ます。\n
+        ,
+        予定が多くてリストが見づらい場合は「斜線入り」、少ない場合は「斜線なし」の状態にしておくのが良いでしょう。\n
+        ,
+        非表示にするための条件設定をしたい場合は、このアイコンを長押しして下さい。\n
+        仮に「未来の用件の表示」の項目を「３０日先まで表示」にしたのならば、約１ヶ月以上先の予定を非表示にする事が出来ます。
+    </string>
+    <string name="mess_help_5">
+        フキダシアイコンについて
+        ,
+        タップすると画面下部にドロイド君とコメントが表示されます。\n
+        出てきたドロイド君をタップすると別のコメントが表示されます。\n
+        ×を押すか再度フキダシアイコンを押せばドロイド君を消すことが出来ます。
+        ,
+        表示されるコメントを変更したい場合は、このアイコンを長押しして下さい。\n
+        「コメント内容の設定」をタップして出て来る文章を書き換えると、ドロイド君はそのコメントを話すようになります。\n
+        自分が好きな言葉や格言などを登録してみてはいかがでしょうか？
+    </string>
+
+    <!--　レイアウトの文字　-->
+    <string name="kari">仮のお題目</string>
+    <string name="app_name">ToDoList</string>
+
+    <!--　リストバー上の単語　-->
+    <string name="list_bar_once_left">予定日</string>
+    <string name="list_bar_once_center">単発予定</string>
+
+    <string name="list_bar_repeat_left">期限</string>
+    <string name="list_bar_repeat_center">反復予定</string>
+    <string name="list_bar_repeat_right">連続達成</string>
+
+    <string name="list_bar_wait_left">開始日</string>
+    <string name="list_bar_wait_center">待機</string>
+    <string name="list_bar_wait_right">開始日</string>
+
+    <string name="list_bar_dead_left">目標</string>
+    <string name="list_bar_dead_center">失敗</string>
+    <string name="list_bar_dead_right">連続達成</string>
+
+    <!--　予定作成画面上の単語　-->
+
+    <string name="make_cell_top_bar">用件の登録・変更</string>
+    <string name="make_cell_exp">変更したい項目をタップして下さい</string>
+    <string name="make_cell_title">件名：</string>
+    <string name="make_cell_repeat_ok">繰り返し実行</string>
+    <string name="make_cell_task_name">未指定</string>
+    <string name="make_cell_day">開始日</string>
+    <string name="make_cell_freq">実行頻度</string>
+    <string name="make_cell_goal">連続達成目標</string>
+    <string name="make_cell_memo">メモ</string>
+
+    <string name="setting_top_bar">設定</string>
+
+
+    <string name="status_top_bar">用件の詳細</string>
+    <string name="status_day">開始日</string>
+    <string name="status_week">曜日</string>
+    <string name="status_freq">実行頻度</string>
+    <string name="status_count">残り期日</string>
+    <string name="status_combo">連続達成回数</string>
+    <string name="status_goal">連続達成目標</string>
+    <string name="status_done">現在の状況</string>
+    <string name="status_id">登録ＩＤ</string>
+    <string name="status_memo">メモ</string>
+
+
+
+    <string name="bt_check">確認</string>
+    <string name="bt_ok">確定</string>
+    <string name="bt_hide">隠す</string>
+    <string name="bt_set">設定</string>
+    <string name="bt_delete">削除</string>
+    <string name="bt_return">戻る</string>
+    <string name="bt_entry">登録</string>
+    <string name="bt_update">変更</string>
+
+
+<string-array name="day">
+<item>月毎</item>
+<item>週毎</item>
+<item>毎日</item>
+<item>２日毎</item>
+<item>３日毎</item>
+<item>４日毎</item>
+<item>５日毎</item>
+<item>６日毎</item>
+</string-array>
+
+<string-array name="time">
+<item>１回</item>
+<item>２回</item>
+<item>３回</item>
+<item>４回</item>
+<item>５回</item>
+<item>６回</item>
+<item>７回</item>
+</string-array>
+    </resources>

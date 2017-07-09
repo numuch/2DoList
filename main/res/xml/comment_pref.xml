@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <PreferenceCategory
+        android:title = "キャラコメントの設定"
+    >
+
+        <EditTextPreference
+        android:key="@string/p_key_comment_org"
+        android:title="コメント内容の設定"
+        android:summary="キャラと共に表示される文章の設定です"
+        android:dialogTitle="カンマ区切りで複数の台詞を設定できます"
+        android:defaultValue="@string/def_comment_org"
+        />
+
+        <CheckBoxPreference
+            android:key="@string/p_key_comment_set_default"
+            android:summary="コメントを初期状態に戻す"
+            android:defaultValue="true"
+        />
+
+
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title = "ポップアップコメントの設定">
+
+
+
+    <CheckBoxPreference
+        android:defaultValue = "true"
+        android:key="@string/pref_congratulations"
+        android:summary="一定の条件を達成した時にお祝いを表示"
+        android:title="おめでとう表示"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

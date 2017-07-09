@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entries_future_task">
+        <item>全ての予定を表示</item>
+        <item>１８０日先まで表示</item>
+        <item>９０日先まで表示</item>
+        <item>３０日先まで表示</item>
+        <item>２０日先まで表示</item>
+        <item>７日先まで表示</item>
+    </string-array>
+    <string-array name="entries_val_future_task">
+        <item>9999</item>
+        <item>180</item>
+        <item>90</item>
+        <item>30</item>
+        <item>20</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="entries_new_freq">
+        <item>毎日実行</item>
+        <item>週に１回実行</item>
+        <item>４日に１回実行</item>
+        <item>３日に１回実行</item>
+        <item>２日に１回実行</item>
+    </string-array>
+    <string-array name="entries_val_new_freq">
+        <item>1</item>
+        <item>7</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="entries_new_goal">
+        <item>３回</item>
+        <item>５回</item>
+        <item>７回</item>
+        <item>１０回</item>
+        <item>２０回</item>
+    </string-array>
+    <string-array name="entries_val_new_goal">
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+
+</resources>
+

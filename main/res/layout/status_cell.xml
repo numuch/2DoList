@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <TextView
+        android:text="@string/status_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="@color/task_not_yet"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:text="@string/kari"
+        android:id="@+id/task_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center"
+        android:textSize="24sp" android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:text="@string/kari"
+        android:id="@+id/task_freq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center"
+        android:textSize="16sp" android:layout_marginTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+    >
+
+
+        <TextView
+            android:id="@+id/menu_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:id="@+id/menu_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+        />
+        <TextView
+            android:id="@+id/menu_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+        />
+        <TextView
+            android:id="@+id/menu_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+        />
+        <TextView
+            android:id="@+id/menu_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+        />
+        <TextView
+            android:id="@+id/menu_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+        />
+    </LinearLayout>
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
+        android:columnCount="3"
+        android:rowCount="1" android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/but_update"
+            android:text="@string/bt_update"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/but_delete"
+            android:text="@string/bt_delete"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"
+            />
+
+
+        <Button
+            android:id="@+id/but_return"
+            android:text="@string/bt_return"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_marginLeft="30dp"/>
+
+
+
+    </GridLayout>
+
+
+
+</LinearLayout>
+
+

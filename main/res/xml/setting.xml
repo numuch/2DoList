@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBoxPreference
+        android:key="@string/pref_list_bar_visible"
+        android:summary="用件が０件でもトップバーを表示する"
+        android:title="トップバーを常に表示"/>
+
+    <PreferenceCategory
+        android:title = "単発予定リストの設定">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/pref_past_task_visible"
+            android:summary="予定日を過ぎても表示する"
+            android:title="過去の用件の表示"/>
+
+        <ListPreference
+            android:defaultValue="90"
+            android:key="@string/pref_future_task_visible"
+            android:summary="%s"
+            android:title="未来の用件の表示"
+            android:entries="@array/entries_future_task"
+            android:entryValues="@array/entries_val_future_task"
+            android:dialogTitle="タイトル" />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

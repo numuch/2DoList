@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:background="@color/translucent_black"
+    android:orientation="vertical"
+>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="24dp">
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_droid"
+        android:id="@+id/chevron_left"
+        android:src="@drawable/ic_chevron_left_black_24dp"
+        android:tint="@color/droid_color"
+    />
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_droid"
+        android:id="@+id/chevron_right"
+        android:src="@drawable/ic_close_black_24dp"
+        android:tint="@color/droid_color"
+    />
+
+</LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/message_title"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="タイトル"
+        android:textColor="@color/droid_color"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="20dp"
+
+    />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_chat"
+        android:padding="8dp"
+        android:text="期限が近いものほど上に来ます\n今日中にやらなければならないことは\n赤字になります。"
+        android:layout_marginBottom="8dp"
+    />
+
+
+</LinearLayout>
+
+
+

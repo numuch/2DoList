@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <PreferenceCategory
+        android:title = "予定作成時の設定">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/pref_select_task_type"
+            android:summaryOn="反復予定にする"
+            android:summaryOff="単発予定にする"
+            android:title="初期の予定タイプ"/>
+
+        <ListPreference
+            android:defaultValue="3"
+            android:key="@string/pref_new_freq"
+            android:summary="%s"
+            android:title="初期の反復頻度"
+            android:entries="@array/entries_new_freq"
+            android:entryValues="@array/entries_val_new_freq"
+            android:dialogTitle="タイトル" />
+
+        <ListPreference
+            android:defaultValue="3"
+            android:key="@string/pref_new_goal"
+            android:summary="%s"
+            android:title="初期の目標回数"
+            android:entries="@array/entries_new_goal"
+            android:entryValues="@array/entries_val_new_goal"
+            android:dialogTitle="タイトル" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+

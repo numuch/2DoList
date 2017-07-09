@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#642EFE</color>   <!-- #FF4081 -->
+
+    <color name="limitDay">#b0c4de</color>
+    <color name="grayBack">#696969</color>
+    <color name="darkSlateGray">#2f4f4f</color>
+    <color name="orange">#ffa500</color>
+    <color name="once_bar">#3cb371</color>
+    <color name="once_cell">#CEF6D8</color>
+    <color name="clear_bar">#afeeee</color>
+    <color name="dead_bar">#cd5c5c</color>
+    <color name="dialog_bg">#00000000</color>
+    <color name="translucent_black">#CC000000</color>
+    <color name="droid_color">#A4C639</color>
+    <color name="droid_color2">#C3D6B5</color>
+
+    <color name="menu_bar">#6495ed</color>
+    <color name="comment">#b0c4dc</color>
+    <color name="editable_menu">#b0c4de</color>
+    <color name="task_not_yet">#b0c4de</color>
+    <color name="task_done">#708090</color>
+    <color name="grid_cell">#b0e0e6</color>     <!-- powderBlue-->
+    <color name="grid_border">#6495ed</color>     <!-- cornflowerBlue-->
+
+
+</resources>
