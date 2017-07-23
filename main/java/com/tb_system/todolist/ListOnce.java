@@ -1,6 +1,5 @@
 package com.tb_system.todolist;
 
-
 import android.app.Fragment;
 import android.content.Context;
 import android.content.SharedPreferences;
