@@ -37,7 +37,6 @@ public class CellAdapter extends ArrayAdapter<Cell> {
         // 特定の行(position)のデータを得る
         Cell cell = getItem( pos );
 
-
         // convertViewは使い回しされている可能性があるのでnullの時だけ新しく作る
         if (null == convertView) {
             convertView = layoutInflater.inflate ( layoutResource , null);
