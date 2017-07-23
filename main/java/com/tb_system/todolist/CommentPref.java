@@ -18,7 +18,6 @@ public class CommentPref extends PreferenceFragment implements SharedPreferences
 
     }
 
-
     //コールバックリスナ
     public void onSharedPreferenceChanged(SharedPreferences spfs, String key) {
 
