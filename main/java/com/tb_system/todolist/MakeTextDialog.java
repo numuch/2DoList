@@ -13,7 +13,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import static com.tb_system.todolist.Cont.ReqCode;
 import static com.tb_system.todolist.Cont.getReqCodeByHashCode;
 
