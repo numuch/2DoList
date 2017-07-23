@@ -1,6 +1,5 @@
 package com.tb_system.todolist;
 
-
 import android.app.Activity;
 import android.content.Context;
 import android.os.Build;
