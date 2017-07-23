@@ -13,7 +13,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.NumberPicker;
 import android.widget.TextView;
-
 import static com.tb_system.todolist.Cont.*;
 
 /**
