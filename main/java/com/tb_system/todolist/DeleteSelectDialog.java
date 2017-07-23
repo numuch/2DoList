@@ -18,7 +18,6 @@ import android.widget.Toast;
  */
 public class DeleteSelectDialog extends DialogFragment {
 
-
     private DeleteSelectDialogListener listener;
 
     public static DeleteSelectDialog newInstance (Fragment target, Cont.ReqCode reqCode, Cell cell ){
