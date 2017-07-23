@@ -20,9 +20,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import java.util.Calendar;
-
 import static com.tb_system.todolist.Cont.DateFormat;
 import static com.tb_system.todolist.Cont.*;
 import static com.tb_system.todolist.Cont.ReqCode.TASK;
