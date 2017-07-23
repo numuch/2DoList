@@ -243,7 +243,6 @@ public class Cell implements Serializable{
         return count;
     }
 
-
     public String getCountStr() {return String.valueOf(this.count); }
 
 
