@@ -6,10 +6,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.preference.PreferenceManager;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import static com.tb_system.todolist.Cont.*;
 import static com.tb_system.todolist.Cont.Entry.COL_COMBO;
 import static com.tb_system.todolist.Cont.Entry.COL_COUNT;
