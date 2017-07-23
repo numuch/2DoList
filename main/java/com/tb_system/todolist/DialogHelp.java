@@ -45,7 +45,6 @@ public class DialogHelp extends DialogFragment implements AdapterView.OnItemClic
                 "リストの種類と操作",
                 "目のアイコンについて",
                 "フキダシアイコンについて",
-
         };
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(
