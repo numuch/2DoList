@@ -24,7 +24,6 @@ public enum ListType {
         this.str = str;
     }
 
-
     public int getVal() {
         return val;
     }
